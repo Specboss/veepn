@@ -1,0 +1,36 @@
+# django
+django
+djangorestframework
+django-environ
+psycopg2-binary
+djangorestframework-simplejwt
+django_ratelimit
+django-celery-beat
+requests
+django-storages
+Pillow
+django-cors-headers
+django-filter
+
+# Logging
+python-json-logger
+
+# WebSocket support
+channels>=4.0,<5.0
+channels_redis>=4.0,<5.0
+websockets
+
+# Celery redis
+boto3
+celery
+redis
+
+# env
+python-dotenv
+
+# gunicron tools
+gunicorn
+uvicorn
+uvloop
+httptools
+uvicorn[standard]
