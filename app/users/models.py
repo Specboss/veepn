@@ -11,10 +11,6 @@ class User(AbstractUser):
     """
     Пользователь
     """
-    ROLE_CHOICES = [
-        ('author', 'Автор'),
-        ('user', 'Пользователь'),
-    ]
 
     first_name = models.CharField("Имя", max_length=100, blank=True, null=True)
     last_name = models.CharField("Фамилия", max_length=50, blank=True, null=True)

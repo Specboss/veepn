@@ -25,4 +25,4 @@ class TelegramHandlerWebHook:
 
     def __start(self):
         send_telegram_message(self.chat_id, TelegramMessagesEnum.GREETING.value,
-                              web_app={"text": "Suplo App", "url": "https://lk-suplo.ronix.ru"})
+                              web_app={"text": "VEEPN", "url": "https://veepn.nestforge.online"})
